@@ -28,7 +28,7 @@ const braille_dict = {
   " ": "000000",
 };
 
-//Helpper method to check if a string is uppercase
+//Helper method to check if a string is uppercase
 // INPUT: a single string parameter
 // OUTPUT: Returns boolean true if it is uppercase and false if otherwise
 function isUpperCase(str) {
