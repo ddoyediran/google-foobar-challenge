@@ -31,8 +31,8 @@ const braille_dict = {
 //Helper method to check if a string is uppercase
 // INPUT: a single string parameter
 // OUTPUT: Returns boolean true if it is uppercase and false if otherwise
-function isUpperCase(str) {
-  return str === str.toUpperCase() && str !== str.toLowerCase();
+function isUpperCase(char) {
+  return char === char.toUpperCase() && char !== char.toLowerCase();
 }
 
 function solution(str) {
@@ -50,7 +50,7 @@ function solution(str) {
       char = str[i].toLowerCase();
     }
 
-    // check the equivalent word in the braille_dict and concate the code to result
+    // check the equivalent word in the braille_dict and concat the code to result
     result += braille_dict[char];
   }
 
